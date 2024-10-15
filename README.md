@@ -25,3 +25,9 @@ rye run arxiv-scratcher
 ```
 
 you can get res in dictionary `data`
+
+## Suggestions
+
+1. you can open 'overview.md' with  `Typora`
+2. Export '.md' to '.html' with `Typora`
+3. Then open '.html' file in Chrome, translate it to Chinese(or ohter language)
