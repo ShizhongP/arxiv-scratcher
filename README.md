@@ -9,6 +9,11 @@
 
 install rye in you computer
 [rye doc](https://rye.astral.sh/guide/installation/)
+then type the code below to add dependencies
+
+```py
+rye sync
+```
 
 ## Usage
 
