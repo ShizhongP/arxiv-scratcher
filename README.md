@@ -12,10 +12,10 @@ install rye in you computer
 
 ## Usage
 
-creat `src/APIKEY.py` and Write you key, you can get it form [zhipuapi](https://open.bigmodel.cn/)
+creat `src/APIKEY.py` and write you key, you can get it from [zhipuapi](https://open.bigmodel.cn/)
 
 ```python
-ZHIPU_key
+ZHIPU_key = 'your apikey'
 ```
 
 then
