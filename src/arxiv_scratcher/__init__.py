@@ -48,7 +48,7 @@ def instruct_reader(folder_name):
     input_text = ''
     with open(f'{folder_name}/papers.json', 'r', encoding='utf-8') as file:
         paper_list = json.load(file)  # 将 JSON 数据加载到字典中
-    for paper in paper_list[:50]:
+    for paper in paper_list[:min(50, len(paper_list))]:
         input_text = input_text + paper['title'] + '\n'
     return paper_list, input_text+instructions
 
