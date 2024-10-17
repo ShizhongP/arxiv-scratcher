@@ -63,7 +63,7 @@ def main():
 
         chatmodel = ChatModel(ZHIPU_KEY)
         response = chatmodel.chat(input_text)
-        print(response)
+        # print(response)
 
         with open(f'{folder_name}/overview.md', 'w+') as f:
             f.write(response)
@@ -79,6 +79,6 @@ def main():
                 new_overview.append(
                     f"摘要\n{paper['abstract']} \n[{paper['title']}]({paper['url']})\n")
 
-    print(new_overview)
+    # print(new_overview)
     with open(f'{folder_name}/new_overview.md', 'w+') as f:
         f.writelines(new_overview)

@@ -11,4 +11,4 @@ wheels/
 
 
 src/APIKEY.py
-data/
+data/*
